@@ -85,7 +85,7 @@ export const Viviendas = [
                 habitacion: '/Images/Villas/Villas1/habitacion.jpg'
             }
         ]
-      
+        
     },
     {
         Titulo: 'Apartamento en azua',
