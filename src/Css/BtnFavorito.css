@@ -1,0 +1,13 @@
+.Fav{
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 100vmax;
+    color: #fff;
+    background: #FB2326;
+    transition: 300ms ease-in;
+}
+
+.Fav:hover{
+    color: #FDB53B;
+    transform: scale(1.1);
+}

@@ -1,0 +1,160 @@
+.Contenedor{
+    width: 100%;
+    min-height: 100vh;
+    margin-bottom: 10px;
+}
+
+a:hover .icono{
+    color: gray;
+}
+a:hover .regresar{
+    color: gray;
+}
+
+a{
+    width: 220px;
+}
+
+.regresar{
+    color:#fff;
+    font-size: 40px;
+    transition: 300ms ease-in;
+}
+.icono{
+    color: blue;
+    font-size: 40px;
+    margin: 20px 20px;
+    color: #fff;
+    transition: 300ms ease-in;
+}
+
+.Contenedor-Agregadas{
+    margin-top: 25px;
+
+}
+
+.Caja-Agregadas{
+    background: rgba(0, 0, 0, 0.5);
+    width: 90%;
+    margin: auto;
+    padding: 25px;
+    border-radius: 25px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Caja-Agregadas img{
+    border-radius: 25px;
+    transition: 300ms ease-in;
+    cursor: pointer;
+}
+.Caja-Agregadas img:hover{
+    transform: scale(1.1);
+}
+
+.Caja-Agregadas h1{
+    color: #968d7f;
+}
+
+.Caja-Agregadas div{
+    text-align: center;
+}
+
+.Caja-Agregadas span{
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.Delete{
+    font-size: 40px;
+    color: #fff;
+    cursor: pointer;
+    transition: 1s all;
+}
+.Delete:hover{
+    color: #FB2326;
+    transform: scale(1.1);
+}
+
+.Activada{
+    display: none;
+}
+
+.Desactivada{
+    display:flex; 
+    justify-Content:center; 
+    align-Items:center; 
+    margin-Top:50px; 
+    color:#503f22; 
+    background:#fff; 
+    padding:25px; 
+    border-Radius:10px; 
+    width:50%; 
+    margin:auto; 
+    font-Weight:bold
+}
+
+@media screen and (max-width:1100px){
+
+    .Caja-Agregadas{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+    }
+    
+    .Caja-Agregadas h1{
+        font-size: 20px;
+    }
+
+    .Caja-Agregadas img{
+        width: 200px;
+    }
+    
+}
+@media screen and (max-width:650px){
+
+    .Titulo2{
+        color: #fff;
+    }
+
+    .Caja-Agregadas{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+    }
+    
+    .Caja-Agregadas h1{
+        font-size: 20px;
+    }
+
+    .Caja-Agregadas img{
+        width: 200px;
+    }
+    
+}
+
+@media screen and (max-width:453px){
+
+    .Titulo2{
+        color: #fff;
+    }
+
+    .Caja-Agregadas{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    
+    .Caja-Agregadas h1{
+        font-size: 24px;
+    }
+
+    .Caja-Agregadas img{
+        width: 200px;
+    }
+    
+}

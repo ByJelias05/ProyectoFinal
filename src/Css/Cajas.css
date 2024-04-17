@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.contenedor{
+    background: #Fff;
+    width: 250px;
+    margin: 0px 25px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+    height: 320px;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+    overflow: hidden;
+}
+
+.contenedor:hover{
+    transform: scale(1.08);
+}
+
+img{
+    width:  250px;
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.titulo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+    border-radius: 100vmax;
+    background: gray;
+    width: 200px;
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.precio{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-block: 5px;
+}
+
+
+.BtnA{
+    transform: translateX(-195px);
+    transition: 1s linear;
+}
+.contenedor:hover .BtnA{
+    transform: translateX(0px);
+}
+
+.BtnF{
+    margin-left: 5px;
+    transform: translateY(-375px);
+    transition: 1s linear;
+}
+.contenedor:hover .BtnF{
+    transform: translateY(-225px);
+}
+
+
+.Contedor-Principal{
+    display: grid;
+    grid-Template-Columns: repeat(4, 1fr);
+    width: 90%;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 1160px){
+
+    .Contedor-Principal{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 80%;
+        margin: auto;
+    }
+
+    
+}
+@media screen and (max-width: 940px){
+
+    .Contedor-Principal{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 90%;
+        margin: auto;
+    }
+
+    .BtnA{
+        transform: translateX(0px);
+        transition: 1s linear;
+    }
+
+    .BtnF{
+        margin-left: 5px;
+        transform: translateY(-225px);
+        transition: 1s linear;
+    }
+
+
+}
+
+@media screen and (max-width: 850px){
+
+    .Contedor-Principal{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 70%;
+        margin: auto;
+    }
+
+    .BtnA{
+        transform: translateX(0px);
+        transition: 1s linear;
+    }
+
+    .BtnF{
+        margin-left: 5px;
+        transform: translateY(-225px);
+        transition: 1s linear;
+    }
+
+
+}
+
+@media screen and (max-width: 715px){
+
+    .Contedor-Principal{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 70%;
+        margin: auto;
+    }
+
+    .BtnA{
+        transform: translateX(0px);
+        transition: 1s linear;
+    }
+
+    .BtnF{
+        margin-left: 5px;
+        transform: translateY(-225px);
+        transition: 1s linear;
+    }
+
+    /* contenedor de opciones */
+    .contenedor-principal{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 650px){
+
+    .Contedor-Principal{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 80%;
+        margin: auto;
+    }
+
+    .BtnA{
+        transform: translateX(0px);
+        transition: 1s linear;
+    }
+
+    .BtnF{
+        margin-left: 5px;
+        transform: translateY(-225px);
+        transition: 1s linear;
+    }
+
+    /* contenedor de opciones */
+    .contenedor-principal{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 590px){
+
+    .Contedor-Principal{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 50%;
+        margin: auto;
+    }
+
+    .BtnA{
+        transform: translateX(0px);
+        transition: 1s linear;
+    }
+
+    .BtnF{
+        margin-left: 5px;
+        transform: translateY(-225px);
+        transition: 1s linear;
+    }
+
+    /* contenedor de opciones */
+    .contenedor-principal{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 492px){
+
+    /* contenedor de opciones */
+    .contenedor-principal{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .FavCar{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 396px){
+
+    .Contedor-Principal{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 65%;
+        margin: auto;
+    }
+
+    /* contenedor de opciones */
+    .contenedor-principal{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .FavCar{
+        display: flex;
+        flex-direction: column;
+    }
+}
+

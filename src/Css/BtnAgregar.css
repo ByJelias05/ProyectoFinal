@@ -1,0 +1,19 @@
+button{
+    width: 125px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid #FDB53B;
+    border-radius: 25px;
+    display: flex;
+    margin: 25px auto;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background 300ms ease-in;
+}
+
+button:hover{
+    background: #FB2326;
+    border: 2px solid #FB2326;
+    color: #fff;
+}

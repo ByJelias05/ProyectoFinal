@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.contenedor-principal{
+    background: #fff;
+    margin: 100px 25px;
+    padding: 15px;
+    border-radius: 25px;
+    *border: 2px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.FavCar{
+    display: flex;
+    font-size: 40px;
+}
+
+.Filtro{
+    font-size: 40px;
+    margin-right: 25px;
+}
+
+h3{
+    font-size: 18px;
+    color: #968d7f;
+}
+
+.Carrito,
+.Favorita,
+.Filtro{
+    text-align: center;
+    margin-left: 25px; 
+    cursor: pointer;
+}
+
+#Seleccion{
+    margin-top: 15px;
+    margin-bottom: 70px;
+    width: 250px;
+    height: 35px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 25px;
+    padding: 5px;
+    border-top: 2px solid  #FB2326;
+    border-right: 2px solid  #FB2326;
+    border-bottom: 2px solid  #FDB53B;
+    border-left: 2px solid  #FDB53B;
+}
+
+
+.NoVer{
+    display: none;
+}
+
+.Ver{
+    display: flex;
+}
