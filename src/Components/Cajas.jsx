@@ -262,7 +262,7 @@ useEffect(() =>{
 
 <div className="FavCar">
 
-      <a href="/Compra"    className="Carrito" style={{textDecoration:'none'}}>
+      <a href="/Compra"  id='Carrito'  className="Carrito" style={{textDecoration:'none'}}>
         <BsFillHouseAddFill style={{color: '#FB2326'}}/>
         <h3>Casas Agregadas</h3>
       </a>
